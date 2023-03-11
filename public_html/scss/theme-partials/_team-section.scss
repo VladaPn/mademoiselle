@@ -1,0 +1,69 @@
+.team-section{
+    h2.title{
+        margin-bottom: 61px; //19 px od spana sa borderom i 42 dodatno, po dizajnu
+    }
+    .wraper{
+        border: $border-hover;
+        margin-bottom: 6.7rem;
+        ul{
+            li{
+                div.row{
+                    padding: 54px  30px;
+                }
+            }
+        }
+        .team-content{
+            h2{
+                a{  display: block;
+                    margin-top: 3.1rem;
+                    margin-bottom: 3.6rem;
+                    font-size: 3rem;
+                    line-height: 2.7rem;
+                }
+            }
+        }
+        p.team-info{
+            padding-right: 30px;
+            font-weight: $font-weight-light;
+            line-height: 2.3rem;
+        }
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        background-color: $primary !important;
+        width: 8px;
+        height: 8px;
+    }
+    .owl-theme{
+        position: relative;
+    }
+    .owl-theme .owl-dots{
+        position: absolute;
+        bottom: 26px;
+        left: 46%;
+    }
+}
+@media(min-width:576px){
+    .team-section{
+
+        p.team-info{
+            padding-right: 190px;
+
+        }
+    }
+}
+@media(min-width:992px){
+    .team-section{
+        .owl-theme .owl-dots{
+        bottom: 40px;
+        left: 46%;
+    }
+    }
+}
+@media(min-width:1200px){
+    .team-section{
+        .owl-theme .owl-dots{
+        bottom: 46px;
+        left: 46%;
+    }
+    }
+}

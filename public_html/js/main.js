@@ -19,6 +19,21 @@ $(document).ready(function(){
         animation();
     });
     animation();
+    //slider
+    if ($('.team-slider').length > 0) {
+        $(".team-slider").owlCarousel({
+            loop:true,
+            dots:true,
+            dotsEach:true,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1,
+                    margin:0
+                }
+            }
+        });
+    }
 }
 );
 

@@ -1,0 +1,19 @@
+footer{
+    padding: 54px 0 25px;
+    nav{
+        a{
+            font-size: 2.7rem;
+            margin:0 10px;
+            transition: 0.5s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+
+        }
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        
+    }
+}
