@@ -1,0 +1,27 @@
+.lead-section{  
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    h1{
+        font-size: 3rem;
+        letter-spacing: 1rem;
+        line-height: 4.4rem;
+        font-weight: $font-weight-light;
+        padding: 118px 0 169px;
+    }
+    
+    
+}
+
+@media(min-width:576px){
+    .lead-section{
+        background-size:100% 100%;
+    h1{
+        font-size: 6rem;
+        letter-spacing: 2rem;
+        line-height: 8.4rem;
+        font-weight: $font-weight-light;
+        padding: 218px 0 269px;
+    }
+    }
+}

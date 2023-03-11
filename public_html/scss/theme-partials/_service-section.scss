@@ -1,0 +1,27 @@
+.service-section{
+    h2.title{
+        margin-bottom: 75px;      
+    }
+    div.row{
+        .h2{
+            font-size: 3.6rem;
+            line-height: 4.4rem;
+            padding: 50px 0;
+        }
+        button{
+            margin-bottom: 95px;
+            padding: 12px 36px;
+        }
+    }
+}
+@media(min-width:768px){
+    .service-section{
+    div.row{
+        .h2{
+            padding: 143px 0 36px;
+        }
+       
+    }
+}
+}
+

@@ -1,0 +1,33 @@
+.trends-section{
+    h2{
+        padding: 75px 0 49px;
+    }
+    figure{
+            overflow: hidden;
+            img{
+                transition:all 1s linear;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    .trends-section-item{
+      
+        .trends-section-description{
+            bottom: 75px;
+            p.date{
+                font-style: italic;
+                font-size: 1.4rem;
+                font-weight: $font-weight-light;
+                font-family: 'bodonibook' !important;
+                letter-spacing: 1px;
+            }
+            p.h5{ 
+                font-size: 1.6rem !important;
+                line-height: 2.4rem !important;
+                height: 4.8rem;
+                overflow: hidden;
+            }
+        }
+    }
+}

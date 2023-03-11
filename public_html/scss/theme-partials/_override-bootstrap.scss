@@ -1,0 +1,26 @@
+html{
+    font-size: 10px;
+}
+$font-size-base:1.6rem ;
+
+//override bootstrap variables
+$grid-gutter-width:12px;
+$gray-900: #1E1E1E;
+$primary: #ECD9D9;
+$navbar-light-color:                $gray-900;
+
+$navbar-light-active-color:         $primary;
+$sizes: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  ( 20: 20%, 
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    85: 85%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
+$gray-100: #F5F5F5;

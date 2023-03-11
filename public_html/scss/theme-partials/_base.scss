@@ -1,0 +1,38 @@
+$base-font-body:$lato;
+$border-hover:1px solid $primary;
+$border-transparent:1px solid transparent;
+img{
+    max-width: 100%;
+}
+body{
+    font-family: $lato;
+    font-weight: $font-weight-normal;
+}
+main{
+    padding-top: 54.5px;
+}
+@media(min-width:576px){
+    main{
+        padding-top: 57px;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'bodonibook';
+
+}
+h2{
+    font-size: 3rem !important;
+    font-weight: $font-weight-light;
+    letter-spacing: 0.5rem;
+    line-height: 4.5rem;
+}
+span.line{
+    padding-bottom: 8px;
+    border-bottom:$border-hover;
+}
+@media(min-width:992px){
+    span.line{
+    padding-bottom: 29px;
+
+}
+}
