@@ -1,0 +1,40 @@
+.about-section{
+    padding-top: 91px;
+    padding-bottom: 78px;
+    .about-content{
+        h2{
+            padding-top: 0;
+            padding-bottom:40px;
+            font-family: $lato;
+            font-size: 4.4rem!important;
+            line-height: 5rem;
+            font-weight: $font-weight-normal;
+        }
+        p{
+             font-family: $lato;
+             line-height: 2.8rem;
+             font-size: 2rem;
+             font-weight: $font-weight-light;
+        }
+        img{
+            margin: 24px 0 56px;
+        }
+    }
+    aside{
+        .search-wrapper{
+            margin-bottom: 4.3rem;
+            input{
+                border: 1px solid $gray-900;
+                font-size: 1.8rem;
+            font-style: italic;
+            font-family: $bodoni;
+            padding: 30px;
+            }
+            a{
+                bottom: 32%;
+                left: 90%;
+            }
+        }
+    }
+}
+

@@ -35,6 +35,10 @@ header{
             &:hover{
                 border-bottom: $border-hover;
             }
+            
+        }
+        a.active{
+            border-bottom: $border-hover;
         }
     }
 }
