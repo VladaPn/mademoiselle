@@ -9759,12 +9759,12 @@ header .navbar-nav a.active {
   margin: 88px 0 37px;
 }
 
-.single-service {
-  padding-top: 223px;
-  padding-bottom: 106px;
+.single-service, .single-blog {
+  padding-top: 103px;
+  padding-bottom: 56px;
 }
 
-.single-service .single-service-content h2 {
+.single-service .single-service-content h2, .single-blog .single-service-content h2 {
   font-family: "Lato", sans-serif;
   font-size: 4.4rem !important;
   line-height: 5rem;
@@ -9772,11 +9772,22 @@ header .navbar-nav a.active {
   padding-bottom: 40px;
 }
 
-.single-service .single-service-content p {
+.single-service .single-service-content p, .single-blog .single-service-content p {
   font-family: "Lato", sans-serif;
   line-height: 2.6rem;
   font-size: 1.8rem;
   font-weight: 300;
+}
+
+.single-blog .single-blog-title {
+  padding-bottom: 2.4rem;
+}
+
+@media (min-width: 992px) {
+  .single-service, .single-blog {
+    padding-top: 223px;
+    padding-bottom: 106px;
+  }
 }
 
 .team-section h2.title {
@@ -9903,7 +9914,7 @@ footer p {
   left: 90%;
 }
 
-.blog-pagination .page-link {
+.blog-pagination .pagination .page-link {
   border: none !important;
   font-family: "bodonibook", sans-serif !important;
   color: #1E1E1E !important;
@@ -9912,12 +9923,58 @@ footer p {
   line-height: 2.4rem;
 }
 
-.blog-pagination .page-item.active a {
+.blog-pagination .pagination .page-item.active a {
   background: transparent !important;
   font-weight: 400;
   color: #000 !important;
-  border: none;
   font-size: 1.9rem;
+}
+
+.single-blog-description {
+  padding-bottom: 120px;
+}
+
+.single-blog-description .single-blog-article .single-blog-article-text {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+}
+
+.single-blog-description .single-blog-article img {
+  margin: 12px 0 52px;
+}
+
+.single-blog-description .tags {
+  font-style: italic !important;
+  letter-spacing: 1px important;
+  font-family: "bodonibook", sans-serif !important;
+  font-size: 1.4rem !important;
+}
+
+.single-blog-description .tags a {
+  font-style: normal !important;
+}
+
+.single-blog-date {
+  font-weight: 300 !important;
+  font-style: italic !important;
+  letter-spacing: 1px important;
+  font-family: "bodonibook", sans-serif !important;
+  font-size: 1.4rem !important;
+}
+
+.single-blog-date span {
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+@media (min-width: 768px) {
+  .single-blog-description {
+    padding-bottom: 273px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */

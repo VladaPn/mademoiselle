@@ -1,7 +1,7 @@
 .service-section{
     margin-bottom: 111px;
     h2.title{
-        margin-bottom: 75px;      
+        margin-bottom: 75px;
     }
     div.row{
         .h2{
@@ -17,20 +17,20 @@
 }
 @media(min-width:768px){
     .service-section{
-    div.row{
-        .h2{
-            padding: 143px 0 36px;
+        div.row{
+            .h2{
+                padding: 143px 0 36px;
+            }
+
         }
-       
     }
-}
 }
 .service-page-section{
     margin:88px 0 37px;
 }
-.single-service{
-    padding-top: 223px; 
-    padding-bottom: 106px;
+.single-service, .single-blog{
+    padding-top: 103px;
+    padding-bottom: 56px;
     .single-service-content{
         h2{
             font-family: $lato;
@@ -39,12 +39,22 @@
             font-weight: $font-weight-normal;
             padding-bottom: 40px;
         }
-         p{
-             font-family: $lato;
-             line-height: 2.6rem;
-             font-size: 1.8rem;
-             font-weight: $font-weight-light;
+        p{
+            font-family: $lato;
+            line-height: 2.6rem;
+            font-size: 1.8rem;
+            font-weight: $font-weight-light;
         }
     }
 }
-
+.single-blog{
+    .single-blog-title{
+        padding-bottom: 2.4rem;
+    }
+}
+@media(min-width:992px){
+    .single-service, .single-blog{
+        padding-top: 223px;
+        padding-bottom: 106px;
+    }
+}
