@@ -9743,7 +9743,7 @@ header .navbar-nav a.active {
   padding: 50px 0;
 }
 
-.service-section div.row button {
+.service-section div.row a.btn {
   margin-bottom: 95px;
   padding: 12px 36px;
 }
@@ -9756,6 +9756,26 @@ header .navbar-nav a.active {
 
 .service-page-section {
   margin: 88px 0 37px;
+}
+
+.single-service {
+  padding-top: 223px;
+  padding-bottom: 106px;
+}
+
+.single-service .single-service-content h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 4.4rem !important;
+  line-height: 5rem;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.single-service .single-service-content p {
+  font-family: "Lato", sans-serif;
+  line-height: 2.6rem;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 .team-section h2.title {

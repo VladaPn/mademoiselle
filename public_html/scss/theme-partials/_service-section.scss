@@ -9,7 +9,7 @@
             line-height: 4.4rem;
             padding: 50px 0;
         }
-        button{
+        a.btn{
             margin-bottom: 95px;
             padding: 12px 36px;
         }
@@ -27,5 +27,24 @@
 }
 .service-page-section{
     margin:88px 0 37px;
+}
+.single-service{
+    padding-top: 223px; 
+    padding-bottom: 106px;
+    .single-service-content{
+        h2{
+            font-family: $lato;
+            font-size: 4.4rem!important;
+            line-height: 5rem;
+            font-weight: $font-weight-normal;
+            padding-bottom: 40px;
+        }
+         p{
+             font-family: $lato;
+             line-height: 2.6rem;
+             font-size: 1.8rem;
+             font-weight: $font-weight-light;
+        }
+    }
 }
 
