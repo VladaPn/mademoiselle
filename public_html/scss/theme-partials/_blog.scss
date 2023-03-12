@@ -1,0 +1,26 @@
+.blog-pagination{
+    .pagination{
+    .page-link{
+        border: none !important;
+        font-family: $bodoni !important;
+        color:$gray-900 !important;
+        font-weight: $font-weight-light;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        
+    }
+    
+    .page-item.active{
+        a{
+            background: transparent!important;
+            font-weight: $font-weight-normal;
+            color:$black !important;
+
+            font-size: 1.9rem;
+            
+        }
+        }
+
+    }
+}
+

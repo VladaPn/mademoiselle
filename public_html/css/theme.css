@@ -9678,7 +9678,7 @@ header .navbar-nav a.active {
   letter-spacing: 1rem;
   line-height: 4.4rem;
   font-weight: 300;
-  padding: 118px 0 169px;
+  padding: 138px 0 189px;
 }
 
 @media (min-width: 576px) {
@@ -9690,7 +9690,7 @@ header .navbar-nav a.active {
     letter-spacing: 2rem;
     line-height: 8.4rem;
     font-weight: 300;
-    padding: 218px 0 269px;
+    padding: 238px 0 289px;
   }
 }
 
@@ -9711,6 +9711,7 @@ header .navbar-nav a.active {
 }
 
 .trends-section .trends-section-item .trends-section-description {
+  z-index: 1;
   bottom: 75px;
 }
 
@@ -9900,6 +9901,23 @@ footer p {
 .about-section aside .search-wrapper a {
   bottom: 32%;
   left: 90%;
+}
+
+.blog-pagination .page-link {
+  border: none !important;
+  font-family: "bodonibook", sans-serif !important;
+  color: #1E1E1E !important;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.blog-pagination .page-item.active a {
+  background: transparent !important;
+  font-weight: 400;
+  color: #000 !important;
+  border: none;
+  font-size: 1.9rem;
 }
 
 /*# sourceMappingURL=theme.css.map */
