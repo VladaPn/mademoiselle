@@ -9754,6 +9754,10 @@ header .navbar-nav a.active {
   }
 }
 
+.service-page-section {
+  margin: 88px 0 37px;
+}
+
 .team-section h2.title {
   margin-bottom: 61px;
 }
