@@ -30,9 +30,35 @@ span.line{
     padding-bottom: 8px;
     border-bottom:$border-hover;
 }
+.error-lead{
+    h1{
+        padding-bottom: 3.2rem!important;
+    }
+.error-container{
+    a.error{
+        color: $white!important;
+        margin-bottom: 150px;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+}
+}
 @media(min-width:992px){
     span.line{
     padding-bottom: 29px;
 
+}
+.error-lead{
+    h1{
+        padding-bottom: 3.2rem!important;
+    }
+.error-container{
+    a.error{
+        color: $white!important;
+        margin-bottom: 278px;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+}
 }
 }

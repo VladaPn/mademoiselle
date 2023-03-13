@@ -1,12 +1,5 @@
 //theme fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 $lato:'Lato', sans-serif;
-@font-face {
-    font-family: 'bodonibook';
-    src: url('../../css/fonts/bodoni/bodoni_book-webfont.woff2') format('woff2'),
-         url('../../css/fonts/bodoni/bodoni_book-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 $bodoni:'bodonibook', sans-serif;
