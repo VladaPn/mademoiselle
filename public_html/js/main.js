@@ -34,6 +34,43 @@ $(document).ready(function(){
             }
         });
     }
+    //validator
+    $('.contact-form').validate({
+            highlight: function (element) {
+                $(element).addClass('is-invalid').removeClass('is-valid');
+            },
+            unhighlight: function (element) {
+                $(element).addClass('is-valid').removeClass('is-invalid');
+            },
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 3
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                subject:{
+                    required: true,
+                    minlength: 3
+                },
+                message: {
+                    required: true
+                },
+            messages: {
+                name: {
+                    required: 'Required',
+                    minlength: 'Must enter more than 3 charachters'
+                }
+            },
+            errorElement: 'p',
+            errorPlacement: function (error, element) {
+                error.appendTo(element.closest('.form-group').find('.error-msg'));
+            }
+        }
+        });
+    
 }
 );
 

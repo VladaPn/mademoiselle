@@ -1,0 +1,44 @@
+.contact-lead{
+    
+        margin: 104px 0 110px;
+        h2{
+            font-weight: $font-weight-normal;
+        }
+     background-position: right top;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    .form-control{
+        font-family: $lato;
+        font-weight: $font-weight-light;
+        font-size: 1.6rem;
+        background-color: rgba(#253D61,0.02);
+        border: none;
+        height: 50px !important;
+        line-height: 25px;
+        padding: 0 10px;
+    }
+    textarea.form-control{
+        
+        line-height: 25px;
+        font-size: 1.6rem;
+        height: 149px!important;
+        margin-bottom: 32px;
+        resize: none;
+    }
+    .form-wrapper{
+     background: rgba($white, 0.8);
+     button{
+         font-size: 1.4rem;
+         line-height: 1.7rem;
+         font-family: $lato;
+         border-radius: 0 !important;
+     }
+    }
+}
+@media(min-width:992px){
+    .contact-lead{
+        .form-wrapper{
+            background:transparent;
+        }
+    }
+}

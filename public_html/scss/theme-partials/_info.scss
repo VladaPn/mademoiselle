@@ -1,0 +1,14 @@
+.info{
+    padding: 63px 0 60px;
+    p{  
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+        font-size: $lato;
+        font-weight: $font-weight-light;
+        margin-bottom: 15px;
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+}
+

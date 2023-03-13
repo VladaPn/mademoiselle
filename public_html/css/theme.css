@@ -9641,6 +9641,7 @@ span.line {
     margin-bottom: 278px;
     font-size: 1.4rem;
     line-height: 1.7rem;
+    border-radius: 0 !important;
   }
 }
 
@@ -9703,7 +9704,7 @@ header .navbar-nav a.active {
     letter-spacing: 2rem;
     line-height: 8.4rem;
     font-weight: 300;
-    padding: 238px 0 289px;
+    padding: 277px 0 289px;
   }
 }
 
@@ -9760,6 +9761,7 @@ header .navbar-nav a.active {
 .service-section div.row a.btn {
   margin-bottom: 95px;
   padding: 12px 36px;
+  border-radius: 0 !important;
 }
 
 @media (min-width: 768px) {
@@ -9988,6 +9990,69 @@ footer p {
   .single-blog-description {
     padding-bottom: 273px;
   }
+}
+
+.contact-lead {
+  margin: 104px 0 110px;
+  background-position: right top;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.contact-lead h2 {
+  font-weight: 400;
+}
+
+.contact-lead .form-control {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px !important;
+  line-height: 25px;
+  padding: 0 10px;
+}
+
+.contact-lead textarea.form-control {
+  line-height: 25px;
+  font-size: 1.6rem;
+  height: 149px !important;
+  margin-bottom: 32px;
+  resize: none;
+}
+
+.contact-lead .form-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.contact-lead .form-wrapper button {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-family: "Lato", sans-serif;
+  border-radius: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .contact-lead .form-wrapper {
+    background: transparent;
+  }
+}
+
+.info {
+  padding: 63px 0 60px;
+}
+
+.info p {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  font-size: "Lato", sans-serif;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.info p:last-of-type {
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=theme.css.map */
